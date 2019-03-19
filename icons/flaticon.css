@@ -1,0 +1,66 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 04/03/2019 08:13
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-linkedin:before { content: "\f100"; }
+.flaticon-skype:before { content: "\f101"; }
+.flaticon-email:before { content: "\f102"; }
+.flaticon-smartphone:before { content: "\f103"; }
+.flaticon-google-chrome:before { content: "\f104"; }
+.flaticon-firefox:before { content: "\f105"; }
+.flaticon-html:before { content: "\f106"; }
+.flaticon-css-document:before { content: "\f107"; }
+.flaticon-laptop:before { content: "\f108"; }
+.flaticon-tablet:before { content: "\f109"; }
+.flaticon-menu:before { content: "\f10a"; }
+.flaticon-back:before { content: "\f10b"; }
+.flaticon-navigation-arrow:before { content: "\f10c"; }
+.flaticon-upload:before { content: "\f10d"; }
+.flaticon-resume:before { content: "\f10e"; }
+.flaticon-pdf:before { content: "\f10f"; }
+.flaticon-printer:before { content: "\f110"; }
+.flaticon-location:before { content: "\f111"; }
+.flaticon-app:before { content: "\f112"; }
+.flaticon-domain:before { content: "\f113"; }
+.flaticon-home:before { content: "\f114"; }
+.flaticon-employee:before { content: "\f115"; }
+.flaticon-achievement:before { content: "\f116"; }
+.flaticon-dot:before { content: "\f117"; }
+.flaticon-diploma:before { content: "\f118"; }
+.flaticon-adventurer:before { content: "\f119"; }
+.flaticon-jigsaw:before { content: "\f11a"; }
+.flaticon-steering-wheel:before { content: "\f11b"; }
+.flaticon-football:before { content: "\f11c"; }
+.flaticon-destination:before { content: "\f11d"; }
+.flaticon-video-player:before { content: "\f11e"; }
+.flaticon-cookbook:before { content: "\f11f"; }
+.flaticon-plus:before { content: "\f120"; }
+.flaticon-info:before { content: "\f121"; }

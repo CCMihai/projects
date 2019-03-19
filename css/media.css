@@ -1,0 +1,166 @@
+/* Medium devices (desktop, less than 1200px) */ 
+.top-message {
+	top: 113px;
+}
+.main {
+	margin-top: 50px;
+}
+@media (max-width: 1349.98px) {	
+	.top-message {
+		top: 150px;
+	}
+	.main {
+		margin-top: 55px;
+	}
+}
+@media (max-width: 991.98px) {	
+	.top-message {
+    	top: 113px;
+    	padding-top: 25px;
+	}
+}
+.top-message {
+	z-index: 1;
+}
+#fixed-nav-menu {
+	z-index: 2;
+}
+@media (max-width: 1199.98px) {	
+}
+@media (min-width: 768px) {
+	.menu {
+		width: 100% !important;
+	}
+}
+/* Medium devices (tablets, less than 992px) */ 
+@media (max-width: 991.98px) { 
+	html {
+		font-size: 0.9rem;
+	}
+	.blockquote-footer::before,
+	.blockquote-footer {
+		font-size: 1rem;
+	}
+	.list-group {
+		margin-bottom: 2rem;
+	}
+	.list-group-item {
+    	padding: 0.5rem 0.75rem;
+    	border: 0;
+	}
+	.card-deck .card {
+	    flex-direction: row;
+	    flex: 0 0 100%;
+	    margin-bottom: 1.5rem;
+	    margin-right: 0.5rem;
+		margin-left: 0.5rem;
+	}
+	.card-deck .card-body {
+		padding-left: 1.5rem;
+	}
+	.skills .canvas {
+    	padding-top: 0;
+	}
+}
+/* Small devices (landscape phones, less than 768px) */ 
+@media (max-width: 767.98px) {
+	html {
+		font-size: 0.85rem;
+	}
+	.menu {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 4rem;
+		background-color: #0f7da0;
+	}
+	.menu .back {
+	  position: absolute;
+	  top: 0.75rem;
+	  right: 0.75rem;
+	  display: block;
+	}
+	.navbar .flaticon-back:before {
+		color: #ffffff;
+		font-size: 2rem;
+		font-weight: 700;
+	}
+	.menu .navbar-nav {
+		margin-right: auto;
+		text-align: center;
+		width: 50%;
+		float: none;
+	}
+	.menu .underline-from-center:before, 
+	.nav-item .nav-link:before {
+		background: #ffffff;
+	}
+	.menu .nav-item {
+	    margin: 0.25rem auto;
+	}
+	.nav-item .nav-link {
+		color: #ffffff;
+	}
+	header:before {
+		width: 100%;
+		background-color: rgba(255,255,255,0.77) !important;	
+	}
+	header .card-title,
+	header .card-text {
+		margin-bottom: 1.5rem;
+	}
+	header .card-title {
+		font-size: 2rem;
+	}
+	header .card-text {
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+	header .card-text span {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color:  #0f7da0;
+	}
+	.card-deck .card .card-body {
+		padding: 0.5rem;
+	}
+	.card-deck .card {
+		margin-bottom: 1rem;
+	}
+	.img-shadow {
+		width: 95%;
+		left: 2.5%;
+		top: 1.25rem;
+	}
+	.skills .canvas {
+    	padding-top: 15%;
+	}
+	.about-img {
+	    margin-left: 2.5rem;
+	    margin-right: 2.5rem;
+	}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.py-5 {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+	.projects figure {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.card-deck .card {
+		flex-direction: column;
+	}
+	.img-shadow {
+		width: 90%;
+		left: 5.5%;
+		top: 1.25rem
+	}
+}
