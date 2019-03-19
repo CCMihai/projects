@@ -1,41 +1,24 @@
 /* Medium devices (desktop, less than 1200px) */ 
-.top-message {
-	top: 113px;
-}
-.main {
-	margin-top: 50px;
-}
-@media (max-width: 1349.98px) {	
-	.top-message {
-		top: 150px;
-	}
-	.main {
-		margin-top: 55px;
-	}
-}
-@media (max-width: 991.98px) {	
-	.top-message {
-    	top: 113px;
-    	padding-top: 25px;
-	}
-}
-.top-message {
-	z-index: 1;
-}
-#fixed-nav-menu {
-	z-index: 2;
-}
 @media (max-width: 1199.98px) {	
-}
-@media (min-width: 768px) {
-	.menu {
-		width: 100% !important;
+	header {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+	.contact {
+		background-size: 100% 55%;
 	}
 }
+
 /* Medium devices (tablets, less than 992px) */ 
 @media (max-width: 991.98px) { 
 	html {
 		font-size: 0.9rem;
+	}
+	header {
+		background-size: 100% 42.5%;
+	}
+	.contact {
+		background-size: 100% 54%;
 	}
 	.blockquote-footer::before,
 	.blockquote-footer {
@@ -49,8 +32,13 @@
     	border: 0;
 	}
 	.card-deck .card {
-	    flex-direction: row;
-	    flex: 0 0 100%;
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: row;
+	            flex-direction: row;
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 100%;
+	            flex: 0 0 100%;
 	    margin-bottom: 1.5rem;
 	    margin-right: 0.5rem;
 		margin-left: 0.5rem;
@@ -75,6 +63,8 @@
 		top: 0;
 		left: 0;
 		overflow-x: hidden;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
 		transition: 0.5s;
 		padding-top: 4rem;
 		background-color: #0f7da0;
@@ -108,7 +98,10 @@
 	}
 	header:before {
 		width: 100%;
-		background-color: rgba(255,255,255,0.77) !important;	
+		background-color: rgba(255,255,255,1) !important;	
+	}
+	header {
+		background-size: 100% 30%;
 	}
 	header .card-title,
 	header .card-text {
@@ -130,11 +123,14 @@
 		padding: 0.5rem;
 	}
 	.card-deck .card {
-		margin-bottom: 1rem;
+		margin-bottom: 1.5rem;
+	}
+	.serv-img {
+		margin-top: 1.5rem;
 	}
 	.img-shadow {
-		width: 95%;
-		left: 2.5%;
+		width: 75%;
+		left: 12.5%;
 		top: 1.25rem;
 	}
 	.skills .canvas {
@@ -143,24 +139,45 @@
 	.about-img {
 	    margin-left: 2.5rem;
 	    margin-right: 2.5rem;
+	    margin-bottom: 3rem;
+	}
+	main {
+		margin-top: -2.5rem;
+	}
+	.py-5 {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
 	}
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	header {
+		background-size: 100% 30%;
+	}
 	.py-5 {
-		padding-top: 2rem !important;
-		padding-bottom: 2rem !important;
+		padding-top: 1.5rem !important;
+		padding-bottom: 1.5rem !important;
 	}
 	.projects figure {
 		padding-left: 3rem;
 		padding-right: 3rem;
 	}
 	.card-deck .card {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 	}
 	.img-shadow {
 		width: 90%;
-		left: 5.5%;
-		top: 1.25rem
+		left: 5%;
+	}
+	.carousel-control-prev {
+		left: -3.25rem;
+		opacity: 0.88;
+	}
+	.carousel-control-next {
+		right: -3.25rem;
+		opacity: 0.88;
 	}
 }
