@@ -1,0 +1,169 @@
+/* Medium devices (desktop, less than 1200px) */ 
+@media (max-width: 1199.98px) {	
+	header {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */ 
+@media (max-width: 991.98px) { 
+	html {
+		font-size: 0.9rem;
+	}
+	.blockquote-footer::before,
+	.blockquote-footer {
+		font-size: 1rem;
+	}
+	.list-group {
+		margin-bottom: 2rem;
+	}
+	.list-group-item {
+    	padding: 0.5rem 0.75rem;
+    	border: 0;
+	}
+	.card-deck .card {
+	    -webkit-box-orient: horizontal;
+	    -webkit-box-direction: normal;
+	        -ms-flex-direction: row;
+	            flex-direction: row;
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 100%;
+	            flex: 0 0 100%;
+	    margin-bottom: 1.5rem;
+	    margin-right: 0.5rem;
+		margin-left: 0.5rem;
+	}
+	.card-deck .card-body {
+		padding-left: 1.5rem;
+	}
+	.skills .canvas {
+    	padding-top: 0;
+	}
+}
+/* Small devices (landscape phones, less than 768px) */ 
+@media (max-width: 767.98px) {
+	html {
+		font-size: 0.85rem;
+	}
+	.menu {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		-webkit-transition: 0.5s;
+		-o-transition: 0.5s;
+		transition: 0.5s;
+		padding-top: 4rem;
+		background-color: #0f7da0;
+	}
+	.menu .back {
+	  position: absolute;
+	  top: 0.75rem;
+	  right: 0.75rem;
+	  display: block;
+	}
+	.navbar {
+		flex-direction: row;
+	}
+	.navbar .flaticon-back:before {
+		color: #ffffff;
+	}
+	.menu .navbar-nav {
+		margin-right: auto;
+		text-align: center;
+		width: 50%;
+		float: none;
+	}
+	.menu .underline-from-center:before, 
+	.nav-item .nav-link:before {
+		background: #ffffff;
+	}
+	.menu .nav-item {
+	    margin: 0.25rem auto;
+	}
+	.nav-item .nav-link {
+		color: #ffffff;
+	}
+	header:before {
+		width: 100%;
+		background-color: rgba(255,255,255,1) !important;	
+	}
+	header .card-title,
+	header .card-text {
+		margin-bottom: 1.5rem;
+	}
+	header .card-title {
+		font-size: 2rem;
+	}
+	header .card-text {
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+	header .card-text span {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color:  #0f7da0;
+	}
+	.card-deck .card .card-body {
+		padding: 0.5rem;
+	}
+	.card-deck .card {
+		margin-bottom: 1.5rem;
+	}
+	.serv-img {
+		margin-top: 1.5rem;
+	}
+	.img-shadow {
+		width: 75%;
+		left: 12.5%;
+		top: 1.25rem;
+	}
+	.skills .canvas {
+    	padding-top: 15%;
+	}
+	.about-img {
+	    margin-left: 2.5rem;
+	    margin-right: 2.5rem;
+	    margin-bottom: 3rem;
+	}
+	main {
+		margin-top: -2.5rem;
+	}
+	.py-5 {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.py-5 {
+		padding-top: 1.5rem !important;
+		padding-bottom: 1.5rem !important;
+	}
+	.projects figure {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.card-deck .card {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.img-shadow {
+		width: 90%;
+		left: 5%;
+	}
+	.carousel-control-prev {
+		left: -3.25rem;
+		opacity: 0.88;
+	}
+	.carousel-control-next {
+		right: -3.25rem;
+		opacity: 0.88;
+	}
+}
