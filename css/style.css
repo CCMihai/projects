@@ -7,6 +7,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   line-height: 1.4;
+  height: 100%;
 }
 a {
     -webkit-transition: all 0.5s ease-in-out;
@@ -171,9 +172,10 @@ header:before,
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  flex-direction: row-reverse;
 }
 .sticky-top {
-  background-color: rgba(255,255,255,0.88);
+  background-color: rgba(255,255,255,1);
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -201,20 +203,20 @@ header:before,
 header {
   background-image: url(..//images/header.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
-  position: relative;
   top: -4rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  height: 100%;
 }
 header:before {
   top: 0;
   left: 0;
   width: 52.5%;
   content: "";
-  opacity: 0.77;
+  opacity: 0.75;
 }
 header .card-title,
 header .card-text {
@@ -318,12 +320,13 @@ header .card-text {
 .contact {
   background-image: url(..//images/contact.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 60%;
-  background-position: bottom;
+  background-size: cover;
+  background-position: center center;
   background-attachment: fixed;
+  height: 100%;
 }
 .contact .card {
-  margin: 7.5rem 2rem 5.5rem;
+  margin: 7.5rem 1.5rem 5rem;
   float: left;
   background-color: #ffffff;
 }

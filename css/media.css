@@ -1,11 +1,8 @@
 /* Medium devices (desktop, less than 1200px) */ 
 @media (max-width: 1199.98px) {	
 	header {
-		padding-top: 2.5rem;
-		padding-bottom: 2.5rem;
-	}
-	.contact {
-		background-size: 100% 55%;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 }
 
@@ -13,12 +10,6 @@
 @media (max-width: 991.98px) { 
 	html {
 		font-size: 0.9rem;
-	}
-	header {
-		background-size: 100% 42.5%;
-	}
-	.contact {
-		background-size: 100% 54%;
 	}
 	.blockquote-footer::before,
 	.blockquote-footer {
@@ -75,10 +66,11 @@
 	  right: 0.75rem;
 	  display: block;
 	}
+	.navbar {
+		flex-direction: row;
+	}
 	.navbar .flaticon-back:before {
 		color: #ffffff;
-		font-size: 2rem;
-		font-weight: 700;
 	}
 	.menu .navbar-nav {
 		margin-right: auto;
@@ -99,9 +91,6 @@
 	header:before {
 		width: 100%;
 		background-color: rgba(255,255,255,1) !important;	
-	}
-	header {
-		background-size: 100% 30%;
 	}
 	header .card-title,
 	header .card-text {
@@ -151,9 +140,6 @@
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	header {
-		background-size: 100% 30%;
-	}
 	.py-5 {
 		padding-top: 1.5rem !important;
 		padding-bottom: 1.5rem !important;

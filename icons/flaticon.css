@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 19/03/2019 13:49
+  	Creation date: 20/03/2019 03:52
   	*/
 
 @font-face {
@@ -45,3 +45,4 @@ margin-left: 20px;
 .flaticon-linkedin:before { content: "\f10c"; }
 .flaticon-css-document:before { content: "\f10d"; }
 .flaticon-html:before { content: "\f10e"; }
+.flaticon-back:before { content: "\f10f"; }
