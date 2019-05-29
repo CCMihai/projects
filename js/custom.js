@@ -70,7 +70,7 @@ $(document).ready(function () {
         });
     });     
 
-    var values = [90,80,80,15];
+    var values = [90,80,75,15];
     var colors = [ ['#dedede', '#0f7da0'],
                    ['#dedede', '#0f7da0'], 
                    ['#dedede', '#0f7da0'],
